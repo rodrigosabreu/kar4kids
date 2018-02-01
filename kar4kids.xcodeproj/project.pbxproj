@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6205259C2023376A006078F7 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205259B2023376A006078F7 /* CadastroViewController.swift */; };
+		6205259E202337EA006078F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205259D202337EA006078F7 /* LoginViewController.swift */; };
+		620525A02023383A006078F7 /* LoginFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205259F2023383A006078F7 /* LoginFaceViewController.swift */; };
+		620525A2202338DA006078F7 /* EsqueciSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620525A1202338DA006078F7 /* EsqueciSenhaViewController.swift */; };
 		62AADCE42007EFD800E4A6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AADCE32007EFD800E4A6B4 /* AppDelegate.swift */; };
 		62AADCE62007EFD800E4A6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AADCE52007EFD800E4A6B4 /* ViewController.swift */; };
 		62AADCE92007EFD800E4A6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AADCE72007EFD800E4A6B4 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6205259B2023376A006078F7 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		6205259D202337EA006078F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6205259F2023383A006078F7 /* LoginFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFaceViewController.swift; sourceTree = "<group>"; };
+		620525A1202338DA006078F7 /* EsqueciSenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueciSenhaViewController.swift; sourceTree = "<group>"; };
 		62AADCE02007EFD800E4A6B4 /* kar4kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kar4kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AADCE32007EFD800E4A6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62AADCE52007EFD800E4A6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6205259A2023373B006078F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62AADCE52007EFD800E4A6B4 /* ViewController.swift */,
+				6205259B2023376A006078F7 /* CadastroViewController.swift */,
+				6205259D202337EA006078F7 /* LoginViewController.swift */,
+				6205259F2023383A006078F7 /* LoginFaceViewController.swift */,
+				620525A1202338DA006078F7 /* EsqueciSenhaViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		62AADCD72007EFD800E4A6B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +76,8 @@
 		62AADCE22007EFD800E4A6B4 /* kar4kids */ = {
 			isa = PBXGroup;
 			children = (
+				6205259A2023373B006078F7 /* ViewControllers */,
 				62AADCE32007EFD800E4A6B4 /* AppDelegate.swift */,
-				62AADCE52007EFD800E4A6B4 /* ViewController.swift */,
 				62AADCE72007EFD800E4A6B4 /* Main.storyboard */,
 				62AADCED2007EFD800E4A6B4 /* Assets.xcassets */,
 				62AADCEF2007EFD800E4A6B4 /* LaunchScreen.storyboard */,
@@ -141,7 +161,11 @@
 			files = (
 				62AADCE62007EFD800E4A6B4 /* ViewController.swift in Sources */,
 				62AADCEC2007EFD800E4A6B4 /* kar4kids.xcdatamodeld in Sources */,
+				620525A2202338DA006078F7 /* EsqueciSenhaViewController.swift in Sources */,
 				62AADCE42007EFD800E4A6B4 /* AppDelegate.swift in Sources */,
+				6205259E202337EA006078F7 /* LoginViewController.swift in Sources */,
+				6205259C2023376A006078F7 /* CadastroViewController.swift in Sources */,
+				620525A02023383A006078F7 /* LoginFaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J9BA46N5;
 				INFOPLIST_FILE = kar4kids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kar4kids.kar4kids;
@@ -293,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J9BA46N5;
 				INFOPLIST_FILE = kar4kids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kar4kids.kar4kids;
