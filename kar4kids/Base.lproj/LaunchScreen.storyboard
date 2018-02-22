@@ -18,26 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qKf-S8-gQD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="qKf-S8-gQD">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_app" translatesAutoresizingMaskIntoConstraints="NO" id="QKe-jg-OIF">
+                                <rect key="frame" x="82" y="215" width="156" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="4CD-er-Xw9"/>
+                                    <constraint firstAttribute="height" constant="138" id="XBc-NZ-KVv"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qKf-S8-gQD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1d0-fk-gtx"/>
-                            <constraint firstItem="qKf-S8-gQD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FkU-2j-cO0"/>
-                            <constraint firstItem="qKf-S8-gQD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Nby-Fr-MIQ"/>
-                            <constraint firstItem="qKf-S8-gQD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yaw-UD-Zl6"/>
+                            <constraint firstItem="qKf-S8-gQD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="G12-Q4-a4l"/>
+                            <constraint firstItem="qKf-S8-gQD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="L8H-wm-oBG"/>
+                            <constraint firstItem="qKf-S8-gQD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lol-44-WkQ"/>
+                            <constraint firstItem="QKe-jg-OIF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZdM-c9-s1r"/>
+                            <constraint firstItem="qKf-S8-gQD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kNu-3U-h2t"/>
+                            <constraint firstItem="QKe-jg-OIF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ui1-wB-2nR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="720" height="1280"/>
+        <image name="fundo" width="1080" height="1920"/>
+        <image name="logo_app" width="629" height="546"/>
     </resources>
 </document>

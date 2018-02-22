@@ -23,5 +23,8 @@ class LoginFaceViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.navigationController?.navigationBar.isTranslucent = false
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
     
 }

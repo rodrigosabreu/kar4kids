@@ -8,21 +8,83 @@
 
 import UIKit
 
-class CadastroViewController: UIViewController {
+class CadastroViewController: UIViewController, UITextFieldDelegate, UIScrollViewDelegate {
+    
+
+   
+    
+    @IBOutlet var nome: UITextField!
+    
+    func delegateCampos(){
+        
+       
+       
+        
+
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: .UIKeyboardWillShow, object: nil)
+       
+        
+        
+       
+    }
+    
+    func hideKeyboard() {
+
+        
+    }
+    
+   var keyboardHeight = 0
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+            self.keyboardHeight = Int(keyboardSize.height)
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+       
+        
+        
+        
+    }
+    
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+       
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.delegateCampos()
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.navigationController?.navigationBar.isTranslucent = false
         
     }
+    
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        print("touched")
+    }
+    
+   
+    
+   
+    
+    
     
 }
