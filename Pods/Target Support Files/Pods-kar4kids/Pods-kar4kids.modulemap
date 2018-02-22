@@ -1,0 +1,6 @@
+framework module Pods_kar4kids {
+  umbrella header "Pods-kar4kids-umbrella.h"
+
+  export *
+  module * { export * }
+}

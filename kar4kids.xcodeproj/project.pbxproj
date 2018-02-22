@@ -11,19 +11,24 @@
 		6205259E202337EA006078F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205259D202337EA006078F7 /* LoginViewController.swift */; };
 		620525A02023383A006078F7 /* LoginFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205259F2023383A006078F7 /* LoginFaceViewController.swift */; };
 		620525A2202338DA006078F7 /* EsqueciSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620525A1202338DA006078F7 /* EsqueciSenhaViewController.swift */; };
+		6259C62B203EE8A4000E62D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6259C62A203EE8A3000E62D8 /* GoogleService-Info.plist */; };
 		62AADCE42007EFD800E4A6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AADCE32007EFD800E4A6B4 /* AppDelegate.swift */; };
 		62AADCE62007EFD800E4A6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AADCE52007EFD800E4A6B4 /* ViewController.swift */; };
 		62AADCE92007EFD800E4A6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AADCE72007EFD800E4A6B4 /* Main.storyboard */; };
 		62AADCEC2007EFD800E4A6B4 /* kar4kids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62AADCEA2007EFD800E4A6B4 /* kar4kids.xcdatamodeld */; };
 		62AADCEE2007EFD800E4A6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AADCED2007EFD800E4A6B4 /* Assets.xcassets */; };
 		62AADCF12007EFD800E4A6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AADCEF2007EFD800E4A6B4 /* LaunchScreen.storyboard */; };
+		C17629B1303451B4CAE1BF86 /* Pods_kar4kids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004C70AA9C419B4C17FA9CDA /* Pods_kar4kids.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004C70AA9C419B4C17FA9CDA /* Pods_kar4kids.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kar4kids.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB12B98840B7231E557613 /* Pods-kar4kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kar4kids.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kar4kids/Pods-kar4kids.debug.xcconfig"; sourceTree = "<group>"; };
 		6205259B2023376A006078F7 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		6205259D202337EA006078F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6205259F2023383A006078F7 /* LoginFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFaceViewController.swift; sourceTree = "<group>"; };
 		620525A1202338DA006078F7 /* EsqueciSenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueciSenhaViewController.swift; sourceTree = "<group>"; };
+		6259C62A203EE8A3000E62D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62AADCE02007EFD800E4A6B4 /* kar4kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kar4kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AADCE32007EFD800E4A6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62AADCE52007EFD800E4A6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +37,7 @@
 		62AADCED2007EFD800E4A6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62AADCF02007EFD800E4A6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62AADCF22007EFD800E4A6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F7DA6A7D566D0B811ED390 /* Pods-kar4kids.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kar4kids.release.xcconfig"; path = "Pods/Target Support Files/Pods-kar4kids/Pods-kar4kids.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,12 +45,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17629B1303451B4CAE1BF86 /* Pods_kar4kids.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		234AD11510EBFC1C9A17715D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18BB12B98840B7231E557613 /* Pods-kar4kids.debug.xcconfig */,
+				64F7DA6A7D566D0B811ED390 /* Pods-kar4kids.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6205259A2023373B006078F7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +78,8 @@
 			children = (
 				62AADCE22007EFD800E4A6B4 /* kar4kids */,
 				62AADCE12007EFD800E4A6B4 /* Products */,
+				234AD11510EBFC1C9A17715D /* Pods */,
+				D169555FDC8F31C0B4C6603F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +100,18 @@
 				62AADCED2007EFD800E4A6B4 /* Assets.xcassets */,
 				62AADCEF2007EFD800E4A6B4 /* LaunchScreen.storyboard */,
 				62AADCF22007EFD800E4A6B4 /* Info.plist */,
+				6259C62A203EE8A3000E62D8 /* GoogleService-Info.plist */,
 				62AADCEA2007EFD800E4A6B4 /* kar4kids.xcdatamodeld */,
 			);
 			path = kar4kids;
+			sourceTree = "<group>";
+		};
+		D169555FDC8F31C0B4C6603F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004C70AA9C419B4C17FA9CDA /* Pods_kar4kids.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AADCF52007EFD800E4A6B4 /* Build configuration list for PBXNativeTarget "kar4kids" */;
 			buildPhases = (
+				733202F10678EB8D3ABE7935 /* [CP] Check Pods Manifest.lock */,
 				62AADCDC2007EFD800E4A6B4 /* Sources */,
 				62AADCDD2007EFD800E4A6B4 /* Frameworks */,
 				62AADCDE2007EFD800E4A6B4 /* Resources */,
+				6C77F9E132F70EB852E20101 /* [CP] Embed Pods Frameworks */,
+				5E50F3AB8E7E5E3166C43F2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,12 +177,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				62AADCF12007EFD800E4A6B4 /* LaunchScreen.storyboard in Resources */,
+				6259C62B203EE8A4000E62D8 /* GoogleService-Info.plist in Resources */,
 				62AADCEE2007EFD800E4A6B4 /* Assets.xcassets in Resources */,
 				62AADCE92007EFD800E4A6B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E50F3AB8E7E5E3166C43F2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kar4kids/Pods-kar4kids-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C77F9E132F70EB852E20101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kar4kids/Pods-kar4kids-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kar4kids/Pods-kar4kids-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733202F10678EB8D3ABE7935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kar4kids-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62AADCDC2007EFD800E4A6B4 /* Sources */ = {
@@ -300,6 +391,7 @@
 		};
 		62AADCF62007EFD800E4A6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BB12B98840B7231E557613 /* Pods-kar4kids.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +407,7 @@
 		};
 		62AADCF72007EFD800E4A6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F7DA6A7D566D0B811ED390 /* Pods-kar4kids.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
